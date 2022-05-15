@@ -89,7 +89,7 @@ def solution():
         print("\nINITIAL LIST = ",*new_list)
 
         # ITERATE THROUGH INDEXES OF new_list 
-        # AND EVERY TWO STEPS DOUBLE THE ELEMEND ON THAT INDEX
+        # AND EVERY TWO STEPS DOUBLE THE ELEMENT ON THAT INDEX
         for j in range(0, len(new_list)):
             if j % 2 == 0:
                 new_list[j] = str(int(new_list[j]) * 2)
