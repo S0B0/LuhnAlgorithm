@@ -32,31 +32,31 @@ def drawtitle():
 
 
 def aboutpage():
-    print("~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~[ ABOUT ]~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~")
-    print("|                                                                     |")
-    print("|            The Luhn Algorithm consists of 4 key steps:              |")
-    print("|                                                                     |")
-    print("|                [4,1,3,7,8,9,4,7,1,1,7,5,5,9,0,4]                    |")
-    print("|                 i   i   i   i   i   i   i   i                       |")
-    print("|                                                                     |")
-    print("|            step 1: Double the value of every second digit           |")
-    print("|                [8,1,6,7,16,9,8,7,2,1,14,5,10,9,0,4]                 |")
-    print("|                 i   i   i    i   i   i    i    i                    |")
-    print("|                                                                     |")
-    print("|           step 2: If the result of this doubling operation is       |")
-    print("|            greater than 9 (e.g 16),then add the digits              |")
-    print("|                   of the product(e.g 1 + 6 = 7)                     |")
-    print("|                                                                     |")
-    print("|                [8,1,6,7,7,9,8,7,2,1,5,5,1,9,0,4]                    |")
-    print("|                         i           i   i                           |")
-    print("|                                                                     |")
-    print("|            step 3: Take the sum of all the digits.                  |")
-    print("| 8 + 1 + 6 + 7 + 7 + 9 + 8 + 7 + 1 + 2 + 5 + 5 + 1 + 9 + 0 + 4 = 80  |")
-    print("|                                                                     |")
-    print("|            step 4: If the total ends in zero,this is a valid        |")
-    print("|            card number, If not,it is an invalid card number         |")
-    print("|                                                                     |")
-    print("~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~[ xo0ox ]~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~")
+    print("~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~[ ABOUT ]~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~\n\
+|                                                                     |\n\
+|            The Luhn Algorithm consists of 4 key steps:              |\n\
+|                                                                     |\n\
+|                [4,1,3,7,8,9,4,7,1,1,7,5,5,9,0,4]                    |\n\
+|                 i   i   i   i   i   i   i   i                       |\n\
+|                                                                     |\n\
+|            step 1: Double the value of every second digit           |\n\
+|                [8,1,6,7,16,9,8,7,2,1,14,5,10,9,0,4]                 |\n\
+|                 i   i   i    i   i   i    i    i                    |\n\
+|                                                                     |\n\
+|           step 2: If the result of this doubling operation is       |\n\
+|            greater than 9 (e.g 16),then add the digits              |\n\
+|                   of the product(e.g 1 + 6 = 7)                     |\n\
+|                                                                     |\n\
+|                [8,1,6,7,7,9,8,7,2,1,5,5,1,9,0,4]                    |\n\
+|                         i           i   i                           |\n\
+|                                                                     |\n\
+|            step 3: Take the sum of all the digits.                  |\n\
+| 8 + 1 + 6 + 7 + 7 + 9 + 8 + 7 + 1 + 2 + 5 + 5 + 1 + 9 + 0 + 4 = 80  |\n\
+|                                                                     |\n\
+|            step 4: If the total ends in zero,this is a valid        |\n\
+|            card number, If not,it is an invalid card number         |\n\
+|                                                                     |\n\
+~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~[ xo0ox ]~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~")
 
 # CLEAR TERMINAL OUTPUT FUNCTION
 def clear():
